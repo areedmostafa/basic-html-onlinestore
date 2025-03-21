@@ -1,5 +1,5 @@
 /* Basic Reset */
-body, h1, p, ul, li {
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
@@ -8,31 +8,34 @@ body, h1, p, ul, li {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    padding: 20px;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Heading Styling */
-h1 {
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #444;
 }
 
-/* Paragraph Styling */
-p {
-    font-size: 1.1rem;
-    margin-bottom: 15px;
+/* Main Content Styling */
+main {
+    padding: 20px;
 }
 
-/* List Styling */
-ul {
-    list-style-type: square;
-    margin-left: 20px;
-}
-
-li {
-    font-size: 1rem;
-    margin-bottom: 10px;
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
