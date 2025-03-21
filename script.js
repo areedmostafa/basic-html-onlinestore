@@ -3,7 +3,6 @@ function showAlert() {
     alert("Thank you for visiting our store! Start shopping now.");
 }
 
-
 function calculateDiscount() {
     let age = prompt("Please enter your age:");
     if (age === null || age === "") {
@@ -15,5 +14,14 @@ function calculateDiscount() {
         } else {
             alert("Congratulations! You qualify for a 20% discount.");
         }
+    }
+}
+
+function contactUs() {
+    let phoneNumber = prompt("Please enter your phone number:");
+    if (phoneNumber === null || phoneNumber === "") {
+        alert("No phone number entered. Please try again.");
+    } else {
+        alert("Thank you! We will contact you shortly at " + phoneNumber + ".");
     }
 }

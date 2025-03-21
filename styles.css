@@ -21,14 +21,14 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-    height: 120px; /* Fixed header height */
+    height: 150px; /* Fixed header height */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 header img {
-    width: 300px; /* Logo size set to 300px */
+    width: 450px; /* Logo size set to 450px */
     height: auto; /* Maintain aspect ratio */
 }
 
