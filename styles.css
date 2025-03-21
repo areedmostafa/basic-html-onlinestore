@@ -1,0 +1,38 @@
+/* Basic Reset */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
